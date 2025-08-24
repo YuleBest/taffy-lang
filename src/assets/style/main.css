@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('/fonts/Mona-Sans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Mona Sans EX';
+  src: url('/fonts/Mona-Sans-Expanded.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/fonts/FiraCode.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app,
+body,
+html,
+* {
+  font-family: 'Mona Sans', Arial, sans-serif !important;
+  font-weight: 400 !important;
+}
+
+code {
+  font-family: 'Fira Code', sans-serif, monospace, 'Mona Sans', Arial !important;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* 改变文字被选中时的背景色和文字颜色 */
+::selection {
+  background-color: black;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: black;
+  color: white;
+}
